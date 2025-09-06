@@ -6,7 +6,7 @@ Flask==2.1.2
 python-dotenv==0.20.0
 
 # Runtime tools
-gunicorn==20.1.0
+gunicorn==23.0.0
 honcho==1.1.0
 
 # Code quality
@@ -21,3 +21,6 @@ coverage==6.3.2
 
 # Utilities
 httpie==3.2.1
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
